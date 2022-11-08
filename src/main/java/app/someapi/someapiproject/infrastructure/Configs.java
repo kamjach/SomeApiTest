@@ -15,7 +15,7 @@ public class Configs {
   public List<ClientHttpRequestInterceptor> interceptors() {
     List<ClientHttpRequestInterceptor> interceptors = new ArrayList<>();
     //TODO: dodqc do klasy konfiguracyjnej
-    interceptors.add(new HttpHeaderInterceptor("x-rapidapi-key", "c2105de165msh37de1398ce37d9dp1d47d0jsne294e6641518"));
+    interceptors.add(new HttpHeaderInterceptor("x-rapidapi-key", "xxx"));
     interceptors.add(new HttpHeaderInterceptor("x-rapidapi-host", "api-football-beta.p.rapidapi.com"));
     return interceptors;
   }
